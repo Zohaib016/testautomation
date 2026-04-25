@@ -1,0 +1,14 @@
+{
+  "newCondition": {
+    "name": "Fair",
+    "value": "100",
+    "quantity": "5",
+    "color": "Green"
+  },
+  "updatedCondition": {
+    "name": "excel",
+    "value": "100",
+    "quantity": "5",
+    "color": "Red"
+  }
+}

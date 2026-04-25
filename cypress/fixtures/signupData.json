@@ -1,0 +1,22 @@
+{
+  "validUser": {
+    "username": "Tesst",
+    "name": "Tesst",
+    "email": "qacodexia@gmail.com",
+    "password": "Test1234@",
+    "confirmPassword": "Test1234@",
+    "orgName": "Test",
+    "orgType": "Other",
+    "population": "10000"
+  },
+  "emptyUser": {
+    "username": "",
+    "name": "",
+    "email": "",
+    "password": "",
+    "confirmPassword": "",
+    "orgName": "",
+    "orgType": "",
+    "population": ""
+  }
+}

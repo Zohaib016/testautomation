@@ -1,0 +1,14 @@
+{
+  "category": {
+    "name": "new",
+    "description": "Solar Panels",
+    "usefulLife": "5"
+  },
+  "updatedCategory": {
+    "name": "Test",
+    "description": "Test Panel",
+    "usefulLife": "1000"
+  },
+  "searchTerm": "Landscaping",
+  "deleteasset": "Test"
+}

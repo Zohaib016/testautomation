@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "username": "Test",
+    "name": "User"
+  },
+  "organization": {
+    "orgName": "Industry",
+    "population": "1000",
+    "type": "Education" 
+  },
+  "password": {
+    "new": "12345678"
+  }
+}
