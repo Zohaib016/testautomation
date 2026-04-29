@@ -18,6 +18,7 @@ describe('Signup Flow', () => {
   it('should show errors when submitting empty signup form', () => {
     signupPage.clickSubmit()
     signupPage.assertEmptyFieldsErrors()
+    cy.screenshot('emptyfieldserror')
   })
 
   it('should signup successfully with a unique email', () => {
@@ -36,11 +37,13 @@ describe('Signup Flow', () => {
     signupPage.clickConfirm()
     cy.wait(1000)
     signupPage.goToDashboard()
+    cy.screenshot('signupsucessfully')
   })
 
   it('should show error for already registered user', () => {
     signupPage.fillSignupForm(testData.validUser)
     signupPage.clickSubmit()
     signupPage.assertAlreadyExistsError()
+    cy.screenshot('AlreadyExistsError')
   })
 })

@@ -22,6 +22,7 @@ describe('Login Tests', () => {
 
     loginPage.getEmailRequiredError().should('be.visible')
     loginPage.getPasswordRequiredError().should('be.visible')
+    cy.screenshot('showvalidation error')
   })
 
   it('should show error for invalid credentials', () => {
@@ -29,6 +30,7 @@ describe('Login Tests', () => {
 
     loginPage.getInvalidLoginError().should('be.visible')
     loginPage.getInvalidLoginMessage().should('be.visible')
+    cy.screenshot('invalidcredentials error')
   })
 
   it('should login successfully and logout', () => {
@@ -37,5 +39,6 @@ describe('Login Tests', () => {
     dashboardPage.getDashboardHeading().should('be.visible')
     dashboardPage.signOut()
     cy.url().should('include', '/sign-in')
+    cy.screenshot('LoginSuccessfully')
   })
 })
